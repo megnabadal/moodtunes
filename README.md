@@ -60,4 +60,4 @@ Pick a mood → Get a playlist → Click to open on Spotify.
 
 ---
 
-*Built as a first GitHub project. Simple, functional, and ready to grow.*
+
