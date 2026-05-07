@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodTunes — Music for Every Mood</title>
+  <meta name="description" content="Pick your mood, get a playlist. A music recommender that understands how you feel." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <span class="logo">MoodTunes</span>
+      <h1>What's your<br>mood right now?</h1>
+      <p class="subtitle">Pick a feeling. Get your perfect playlist.</p>
+    </header>
+
+    <p class="section-label">Choose your mood</p>
+
+    <div class="moods">
+      <button class="mood-btn" data-mood="happy">
+        <span class="mood-emoji">☀️</span>
+        <span class="mood-name">Happy</span>
+        <span class="mood-desc">Good vibes only</span>
+      </button>
+      <button class="mood-btn" data-mood="sad">
+        <span class="mood-emoji">🌧️</span>
+        <span class="mood-name">Sad</span>
+        <span class="mood-desc">Let it out</span>
+      </button>
+      <button class="mood-btn" data-mood="energetic">
+        <span class="mood-emoji">⚡</span>
+        <span class="mood-name">Energetic</span>
+        <span class="mood-desc">Full send mode</span>
+      </button>
+      <button class="mood-btn" data-mood="chill">
+        <span class="mood-emoji">🌊</span>
+        <span class="mood-name">Chill</span>
+        <span class="mood-desc">Just vibing</span>
+      </button>
+      <button class="mood-btn" data-mood="focused">
+        <span class="mood-emoji">🎯</span>
+        <span class="mood-name">Focused</span>
+        <span class="mood-desc">Deep work mode</span>
+      </button>
+      <button class="mood-btn" data-mood="romantic">
+        <span class="mood-emoji">🌹</span>
+        <span class="mood-name">Romantic</span>
+        <span class="mood-desc">Soft hours</span>
+      </button>
+    </div>
+
+    <section id="results">
+      <div class="results-header">
+        <h2 class="results-title" id="results-title">Your playlist ✦</h2>
+        <span class="results-mood-badge" id="results-mood-badge"></span>
+      </div>
+      <div class="songs-grid" id="songs-grid"></div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Built by <a href="https://github.com/megnabadal" target="_blank">@megnabadal</a> · No APIs, no sign-up, just music.
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
